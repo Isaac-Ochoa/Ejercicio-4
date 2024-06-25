@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid yellow;
+}
+th{
+    background-color: black;
+    color: white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid bisque;
+}
+
+tr:nth-child(odd){
+    background-color: dimgrey;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.descripcion{
+    width: 40%;
+}
